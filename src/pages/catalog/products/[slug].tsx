@@ -4,7 +4,7 @@ import { useState } from "react";
 
 
 const AddToCartModal = dynamic(
-  ()=> import('../../../components/AddToCartModal'),
+  ()=> import('@/components/AddToCartModal'),
   {loading:  
     () => <p>Carregando...</p>,
     // ssr: false faz com que o componente nunca seja renderizado pelo servidor 
